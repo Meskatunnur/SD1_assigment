@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD_assigment</title>
+    <style>
+        body {
+            background-color: white;
+        }
+ 
+        h1 {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+ 
+        td {
+            padding-right: 15px;
+        }
+ 
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .content{
+            border: 2px solid black;
+            padding: 20px;
+        }
+        .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #3498db;
+  color: #3498db;
+  background-color: #fff; 
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #3498db;
+  color: #fff;
+  border: 2px solid #3498db; 
+}
+ 
+    </style>
+</head>
+ 
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Multiple-Choice-Question (MCQ)</h1>
+            <h1>Time Allowed:10min</h1>
+            <h2>Choose The Correct Answer</h2>
+ 
+            <!-- question1 start -->
+            <p>Q. What is the value of g ?</p>
+            <table>
+                <tr>
+                    <td> <input type="radio" id="1" name="g">
+                        <label for="1">9.3</label><br>
+                    </td>
+                    <td><input type="radio" id="2" name="g">
+                        <label for="2">9.8</label><br>
+                    </td>
+                    <td><input type="radio" id="3" name="g">
+                        <label for="3">9.4</label>
+                    </td>
+                    <td><input type="radio" id="4" name="g">
+                        <label for="4">9.5</label>
+                    </td>
+                </tr>
+            </table>
+            <!-- question1 end -->
+ 
+            <!-- ques2 -->
+            <p>Q. How many satellites of earth ?</p>
+            <table>
+                <tr>
+                    <td> <input type="radio" id="1" name="satellites">
+                        <label for="1">1</label><br>
+                    </td>
+                    <td><input type="radio" id="2" name="satellites">
+                        <label for="2">2</label><br>
+                    </td>
+                    <td><input type="radio" id="3" name="satellites">
+                        <label for="3">9</label>
+                    </td>
+                    <td><input type="radio" id="4" name="satellites">
+                        <label for="4">10</label>
+                    </td>
+                </tr>
+            </table>
+ 
+            <!-- ques3 -->
+            <p>Q. Which is the structured programming language ?</p>
+            <table>
+                <tr>
+                    <td> <input type="radio" id="1" name="spl">
+                        <label for="1">C++</label><br>
+                    </td>
+                    <td><input type="radio" id="2" name="spl">
+                        <label for="2">C</label><br>
+                    </td>
+                    <td><input type="radio" id="3" name="spl">
+                        <label for="3">JAVA</label>
+                    </td>
+                    <td><input type="radio" id="4" name="spl">
+                        <label for="4">Python</label>
+                    </td>
+                </tr>
+            </table>
+ 
+            <!-- ques4 -->
+            <p>Q. && operator works as follows </p>
+            <table>
+                <tr>
+                    <td> <input type="radio" id="1" name="earth">
+                        <label for="1">it checks both conditions</label><br>
+                    </td>
+                    <td><input type="radio" id="2" name="earth">
+                        <label for="2">if first condition is false then skips the second</label><br>
+                    </td>
+                    <td><input type="radio" id="3" name="earth">
+                        <label for="3">if first condition is true then skips the secend</label><br></label>
+                    </td>
+                    <td><input type="radio" id="4" name="earth">
+                        <label for="4">if first condition is false then checks the secend</label><br></label>
+                    </td>
+                </tr>
+            </table>
+ 
+            <!-- ques5 -->
+            <p>Q. int a=10 , b=14;what would be a & b ?</p>
+            <table>
+                <tr>
+                    <td> <input type="radio" id="1" name="blue">
+                        <label for="1">10</label><br>
+                    </td>
+                    <td><input type="radio" id="2" name="blue">
+                        <label for="2">0</label><br>
+                    </td>
+                    <td><input type="radio" id="3" name="blue">
+                        <label for="3">1</label>
+                    </td>
+                    <td><input type="radio" id="4" name="blue">
+                        <label for="4">14</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <a href="/answers.html" class="button">Answers</a>
+</body>
+ 
+</html>
